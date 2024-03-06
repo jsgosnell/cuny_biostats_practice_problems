@@ -274,7 +274,7 @@ probability of success
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>(boostrap_outcomes<span class="sc">$</span>mean, <span class="at">probs=</span><span class="fu">c</span>(.<span class="dv">025</span>, .<span class="dv">975</span>) ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    2.5%    97.5% 
-184.1557 187.0726 </code></pre>
+183.9841 186.9981 </code></pre>
 </div>
 </div>
 <p>or using functions in the <em>boot</em> library</p>
@@ -309,7 +309,7 @@ Attaching package: 'boot'</code></pre>
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">quantile</span>( results<span class="sc">$</span>t, <span class="at">probs=</span><span class="fu">c</span>(.<span class="dv">025</span>, .<span class="dv">975</span>) ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    2.5%    97.5% 
-183.9752 186.9343 </code></pre>
+183.9774 186.8965 </code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">boot.ci</span>(results)     </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -341,9 +341,9 @@ Calculations and Intervals on Original Scale</code></pre>
 
 data:  sport[sport$Sex == "male", "Ht"]
 bootstrap p-value &lt; 2.2e-16 
-bootstrap mean of x (SE) = 185.505 (0.7769069) 
+bootstrap mean of x (SE) = 185.5028 (0.7763939) 
 95 percent bootstrap percentile confidence interval:
- 184.0078 187.0343
+ 183.9794 187.0443
 
 Results without bootstrap:
 t = 12.658, df = 101, p-value &lt; 2.2e-16
