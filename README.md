@@ -37,5 +37,9 @@ more time than students need. Alternatively, you can download just the
 practice problems here. Your instructor may also provide alternative
 problems or use a different delivery method (like github classroom).
 
+**In general you should only work edit .qmd files! Everything/anything
+else is produced during the session and should not be edited. All files
+can be uploaded to github though.**
+
 Solutions are also provided for all problems via the course notes, but
 try them before you look at the answers!
