@@ -2,7 +2,10 @@ project:
   title: "Practice problems"
 
 toc: true
+toc-depth: 5
 toc_float: true
+
+freeze: auto
 
 editor: visual
 
