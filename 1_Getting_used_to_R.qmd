@@ -1,11 +1,5 @@
 ---
 title: "Getting used to R"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    keep_md: true
-    self_contained: true
 ---
 
 <!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
@@ -22,9 +16,9 @@ in class. Before completing it you should have a basic understanding of
 using R. We will do an introduction in class [(download help
 file)](../primer_materials/R_primer.R). You should also be comfortable
 using Rstudio and github [(see help
-file)](../primer_materials/Tools_overview.qmd).
+file)](../primer_materials/tools_overview.qmd){target="_blank"}.
 
-#### Qmd basics
+#### qmd basics
 
 qmd files differ from R files in that they combine regular text with
 code chunks. This is a code chunk
@@ -44,19 +38,19 @@ project you may be prompted to install a number of packages! If you are
 using a webservice you may also need to allow pop-ups in your browser.
 Don't be surprised if a new window pops up (it should).
 
-**Note**: qmd is a newer form of rmd. Rmd files used to be **knit**. Once qmd
-files were established, both those and Rmd files were rendered. Some files in
-the book are still rmd but are being transitioned over time. This has little 
-impact on the user.
+**Note**: qmd is a newer form of rmd. Rmd files used to be **knit**.
+Once qmd files were established, both those and Rmd files were rendered.
+Some files in the book are still rmd but are being transitioned over
+time. This has little impact on the user.
 
 ![The render button turns your .qmd file into other
-products](images/render.png)
+products](/images/render.png)
 
-The **Render** button saves the qmd file and renders a new version whose
-output depends on what you selected in the header. Here we have
+The **Render** button saves the .qmd file and renders a new version
+whose output depends on what you selected in the header. Here we have
 html_document, so if everything works a preview of a webpage like
-document should appear. As a result, rendering produces an html file as
-well. **This means you should only edit the qmd file! Everything else is
+document should appear. The file also produces a github friendly .md
+file. **This means you should only edit the qmd file! Everything else is
 automatically produced and any changes you make will be overwritten by
 your next render**.
 
@@ -98,7 +92,7 @@ tab), but some general notes.
 You can also switch to visual mode to more easily work with formatting.
 
 ![Selecting visual mode will show you what your markdown code actually
-looks like](images/visual_mode.png)
+looks like](/images/visual_mode.png)
 
 The main idea is qmd files allow you to combine code, text, graphs, etc
 into multiple outputs that you can share (including with coding

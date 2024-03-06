@@ -6,13 +6,15 @@ statistics, R, or some combination. The course material now includes a
 -   [course
     notes/book](https://jsgosnell.github.io/cuny_biostats_book/){target="_blank"}
 
--    a
+-   a
     [website](https://sites.google.com/view/biostats/home){target="_blank"}
     housing slides and associated material
 
-    -   this was the original "home" for the material, and it is being
-        updated to point
-        [here](https://jsgosnell.github.io/cuny_biostats_website/){target="_blank"}
+```         
+-   this was the original "home" for the material, and it is being
+    updated to point
+    [here](https://jsgosnell.github.io/cuny_biostats_website/){target="_blank"}
+```
 
 -   tutorials for many lessons using [Swirl](content/swirl_lessons.qmd)
 

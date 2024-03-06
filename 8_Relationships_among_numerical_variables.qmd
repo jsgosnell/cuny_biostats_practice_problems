@@ -1,11 +1,5 @@
 ---
 title: "Relationships among numerical variables"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    keep_md: true
-    self_contained: true
 ---
 
 <!-- COMMENT NOT SHOW IN ANY OUTPUT: Code chunk below sets overall defaults for .qmd file; these inlcude showing output by default and looking for files relative to .Rpoj file, not .qmd file, which makes putting filesin different folders easier  -->
@@ -17,17 +11,18 @@ knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 
 Remember you should
 
-* add code chunks by clicking the *Insert Chunk* button on the toolbar or by
-pressing *Ctrl+Alt+I* to answer the questions!
-* **render** your file to produce a markdown version that you can see!
-* save your work often 
-  * **commit** it via git!
-  * **push** updates to github
-  
+-   add code chunks by clicking the *Insert Chunk* button on the toolbar
+    or by pressing *Ctrl+Alt+I* to answer the questions!
+-   **render** your file to produce a markdown version that you can see!
+-   save your work often
+    -   **commit** it via git!
+    -   **push** updates to github
+
 ## Overview
 
-This practice reviews the [Relationships among numerical variabless lecuture](../chapters/Relationships_among_numerical_variables.qmd).
-  
+This practice reviews the [Relationships among numerical variabless
+lecuture](https://jsgosnell.github.io/cuny_biostats_book/content/chapters/Relationships_among_numerical_variables.html).
+
 ## Example
 
 Following the iris dataset from class
@@ -71,45 +66,46 @@ Confint(bootstrap_iris)
 ## Practice
 
 ### 1
-  
 
-1.  A professor carried out a long-term study to see how various factors impacted
-pulse rate before and after exercise.  Data can be found at 
+A professor carried out a long-term study to see how various factors
+impacted pulse rate before and after exercise. Data can be found at
 
 http://www.statsci.org/data/oz/ms212.txt
 
-With more info at 
+With more info at
 
 http://www.statsci.org/data/oz/ms212.html.
 
-Is there evidence that age, height, or weight impact change in pulse rate for students who ran (Ran column = 1)?  For each of these, how much variation in pulse rate do they explain?
+Is there evidence that age, height, or weight impact change in pulse
+rate for students who ran (Ran column = 1)? For each of these, how much
+variation in pulse rate do they explain?
 
-### 2 
+### 2
 
-2. (from OZDASL repository, http://www.statsci.org/data/general/stature.html; reference for more information)
+(from OZDASL repository,
+http://www.statsci.org/data/general/stature.html; reference for more
+information)
 
-When anthropologists analyze human skeletal remains, an important piece of
-information is living stature. Since skeletons are commonly based on
-statistical methods that utilize measurements on small bones. The following
-data was presented in a paper in the American Journal of Physical
-Anthropology to validate one such method.
-Data is available @
+When anthropologists analyze human skeletal remains, an important piece
+of information is living stature. Since skeletons are commonly based on
+statistical methods that utilize measurements on small bones. The
+following data was presented in a paper in the American Journal of
+Physical Anthropology to validate one such method. Data is available \@
 
 http://www.statsci.org/data/general/stature.txt
 
-as a tab-delimted file (need to use read.table!)
-Is there evidence that metacarpal bone length is a good predictor of
-stature? If so, how much variation does it account for in the response
-variable?
+as a tab-delimted file (need to use read.table!) Is there evidence that
+metacarpal bone length is a good predictor of stature? If so, how much
+variation does it account for in the response variable?
 
 ### 3
 
-3. Data on medals won by various countries in the 1992 and 1994 Olympics is
-available in a tab-delimited file at 
+Data on medals won by various countries in the 1992 and 1994 Olympics is
+available in a tab-delimited file at
 
 http://www.statsci.org/data/oz/medals.txt
 
-More information on the data can be found at: 
+More information on the data can be found at:
 
 http://www.statsci.org/data/oz/medals.html
 
@@ -117,25 +113,26 @@ Is there any relationship between a country’s population and the total
 number of medals they win?
 
 ### 4
- 
-4. Continuing with the Olympic data, is there a relationship between the
+
+Continuing with the Olympic data, is there a relationship between the
 latitude of a country and the number of medals won in summer or winter
 Olympics?
 
 ### 5
 
-5. Data on FEV (forced expiratory volume), a measure of lung function, can
-be found at 
+Data on FEV (forced expiratory volume), a measure of lung function, can
+be found at
 
-http://www.statsci.org/data/general/fev.txt
+<http://www.statsci.org/data/general/fev.txt>
 
-More information on the dataset is available at 
+More information on the dataset is available at
 
-http://www.statsci.org/data/general/fev.html.
+<http://www.statsci.org/data/general/fev.html.>
 
 Is there evidence that FEV depends on age or height? If so, how do these
-factors impact FEV, and how much variance does each explain? 
+factors impact FEV, and how much variance does each explain?
 
-### 6 
+### 6
 
-6. Continuing with the FEV data, produce plots that illustrate how height, age, and gender each impact FEV.  
+Continuing with the FEV data, produce plots that illustrate how height,
+age, and gender each impact FEV.
